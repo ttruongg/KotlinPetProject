@@ -14,7 +14,7 @@
         android:inputType="numberDecimal"
         android:hint="Cost of service"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBaseline_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/service_question"
@@ -66,7 +66,7 @@
 
 
     <Button
-        android:id="@+id/calculate"
+        android:id="@+id/btncalculate"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="CALCULATE"
@@ -75,9 +75,11 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
+        android:id="@+id/tipResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tip Amount"
+        android:text="@string/tip_amount"
+        tools:text="Tip Amount: $10"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/calculate"/>
+        app:layout_constraintTop_toBottomOf="@+id/btncalculate"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
