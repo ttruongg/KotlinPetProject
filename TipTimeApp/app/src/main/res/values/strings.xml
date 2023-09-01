@@ -3,5 +3,6 @@
     <string name="tip_amount">Tip Amount: %s</string>
 <!--    The %s is where the formatted currency will be inserted.-->
 
+    <string name="Cost_of_service">Cost of service</string>
 
 </resources>
