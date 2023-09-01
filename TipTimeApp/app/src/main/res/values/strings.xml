@@ -4,5 +4,7 @@
 <!--    The %s is where the formatted currency will be inserted.-->
 
     <string name="Cost_of_service">Cost of service</string>
+    <string name="Round_up_tip">Round up tip?</string>
+    <string name="Calculate">CALCULATE</string>
 
 </resources>
