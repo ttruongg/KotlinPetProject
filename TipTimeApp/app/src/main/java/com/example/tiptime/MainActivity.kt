@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun calculateTip(){
-        val stringInTextField = binding.plainTextInput.text.toString()
+        val stringInTextField = binding.costOfServiceEditText.text.toString()
         val cost = stringInTextField.toDoubleOrNull()
         if (cost == null){
             displayTip(0.0)
@@ -45,12 +45,7 @@ class MainActivity : AppCompatActivity() {
         if (binding.roundUpSwitch.isChecked){
             tip = kotlin.math.ceil(tip)
         }
-
         displayTip(tip)
-
-
-
-
     }
 
     private fun displayTip(tip: Double){
