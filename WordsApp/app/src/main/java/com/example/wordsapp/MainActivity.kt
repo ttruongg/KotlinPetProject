@@ -38,51 +38,6 @@ class MainActivity : AppCompatActivity() {
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        recyclerView = binding.recyclerView
-        // Sets the LinearLayoutManager of the recyclerview
-        chooseLayout()
-        recyclerView.adapter = LetterAdapter()
-    }
-
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.layout_menu, menu)
-        val layoutButton = menu?.findItem(R.id.action_switch_layout)
-        setIcon(layoutButton)
-        return true
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return when (item.itemId){
-            R.id.action_switch_layout -> {
-                isLinearLayout = !isLinearLayout
-                chooseLayout()
-                setIcon(item)
-                return true
-            } else -> super.onOptionsItemSelected(item)
-        }
-    }
-
-
-    private fun chooseLayout(){
-        if (isLinearLayout){
-            recyclerView.layoutManager = LinearLayoutManager(this)
-        } else {
-            recyclerView.layoutManager = GridLayoutManager(this, 3)
-        }
-    }
-
-    private fun setIcon(menuItem: MenuItem?){
-        if (menuItem == null){
-            return
-        }
-
-        menuItem.icon =
-            if (isLinearLayout){
-                ContextCompat.getDrawable(this, R.drawable.ic_grid_list)
-            } else {
-                ContextCompat.getDrawable(this, R.drawable.ic_linear_layout)
-            }
-
     }
 
 }
