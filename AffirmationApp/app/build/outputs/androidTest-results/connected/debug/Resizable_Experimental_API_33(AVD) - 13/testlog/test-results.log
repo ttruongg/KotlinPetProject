@@ -1,0 +1,123 @@
+INSTRUMENTATION_STATUS: class=com.example.affirmation.AffirmationsListTests
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.example.affirmation.AffirmationsListTests:
+INSTRUMENTATION_STATUS: test=scroll_to_item
+INSTRUMENTATION_STATUS_CODE: 1
+s_glBindAttribLocation: bind attrib 0 name position
+s_glBindAttribLocation: bind attrib 1 name color
+s_glBindAttribLocation: bind attrib 2 name localCoord
+INSTRUMENTATION_STATUS: class=com.example.affirmation.AffirmationsListTests
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=androidx.test.espresso.PerformException: Error performing 'scroll RecyclerView to: holder with view: an instance of android.widget.TextView and view.getText() equals string from resource id: <2131689500>' on view 'Animations or transitions are enabled on the target device.
+For more info check: https://developer.android.com/training/testing/espresso/setup#set-up-environment
+
+view.getId() is <2131231063/com.example.affirmation:id/recycler_view>'.
+at androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)
+at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:8)
+at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:9)
+at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)
+at com.example.affirmation.AffirmationsListTests.scroll_to_item(AffirmationsListTests.kt:25)
+... 33 trimmed
+Caused by: java.lang.RuntimeException: Found 0 items matching holder with view: an instance of android.widget.TextView and view.getText() equals string from resource id: <2131689500>, but position -1 was requested.
+at androidx.test.espresso.contrib.RecyclerViewActions$ScrollToViewAction.perform(RecyclerViewActions.java:361)
+at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at android.os.Handler.handleCallback(Handler.java:942)
+at android.os.Handler.dispatchMessage(Handler.java:99)
+at android.os.Looper.loopOnce(Looper.java:201)
+at android.os.Looper.loop(Looper.java:288)
+at android.app.ActivityThread.main(ActivityThread.java:7872)
+at java.lang.reflect.Method.invoke(Native Method)
+at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+
+INSTRUMENTATION_STATUS: stream=
+Error in scroll_to_item(com.example.affirmation.AffirmationsListTests):
+androidx.test.espresso.PerformException: Error performing 'scroll RecyclerView to: holder with view: an instance of android.widget.TextView and view.getText() equals string from resource id: <2131689500>' on view 'Animations or transitions are enabled on the target device.
+For more info check: https://developer.android.com/training/testing/espresso/setup#set-up-environment
+
+view.getId() is <2131231063/com.example.affirmation:id/recycler_view>'.
+at androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)
+at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:8)
+at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:9)
+at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)
+at com.example.affirmation.AffirmationsListTests.scroll_to_item(AffirmationsListTests.kt:25)
+... 33 trimmed
+Caused by: java.lang.RuntimeException: Found 0 items matching holder with view: an instance of android.widget.TextView and view.getText() equals string from resource id: <2131689500>, but position -1 was requested.
+at androidx.test.espresso.contrib.RecyclerViewActions$ScrollToViewAction.perform(RecyclerViewActions.java:361)
+at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at android.os.Handler.handleCallback(Handler.java:942)
+at android.os.Handler.dispatchMessage(Handler.java:99)
+at android.os.Looper.loopOnce(Looper.java:201)
+at android.os.Looper.loop(Looper.java:288)
+at android.app.ActivityThread.main(ActivityThread.java:7872)
+at java.lang.reflect.Method.invoke(Native Method)
+at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+
+INSTRUMENTATION_STATUS: test=scroll_to_item
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 8.672
+There was 1 failure:
+1) scroll_to_item(com.example.affirmation.AffirmationsListTests)
+androidx.test.espresso.PerformException: Error performing 'scroll RecyclerView to: holder with view: an instance of android.widget.TextView and view.getText() equals string from resource id: <2131689500>' on view 'Animations or transitions are enabled on the target device.
+For more info check: https://developer.android.com/training/testing/espresso/setup#set-up-environment
+
+view.getId() is <2131231063/com.example.affirmation:id/recycler_view>'.
+at androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)
+at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:8)
+at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:9)
+at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)
+at com.example.affirmation.AffirmationsListTests.scroll_to_item(AffirmationsListTests.kt:25)
+... 33 trimmed
+Caused by: java.lang.RuntimeException: Found 0 items matching holder with view: an instance of android.widget.TextView and view.getText() equals string from resource id: <2131689500>, but position -1 was requested.
+at androidx.test.espresso.contrib.RecyclerViewActions$ScrollToViewAction.perform(RecyclerViewActions.java:361)
+at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at android.os.Handler.handleCallback(Handler.java:942)
+at android.os.Handler.dispatchMessage(Handler.java:99)
+at android.os.Looper.loopOnce(Looper.java:201)
+at android.os.Looper.loop(Looper.java:288)
+at android.app.ActivityThread.main(ActivityThread.java:7872)
+at java.lang.reflect.Method.invoke(Native Method)
+at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1
+
