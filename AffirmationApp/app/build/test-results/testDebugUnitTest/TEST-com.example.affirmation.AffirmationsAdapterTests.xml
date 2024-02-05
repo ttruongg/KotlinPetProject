@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.affirmation.AffirmationsAdapterTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-04T17:23:16" hostname="DESKTOP-NF3AAPU" time="3.208">
+  <properties/>
+  <testcase name="adapter_size" classname="com.example.affirmation.AffirmationsAdapterTests" time="3.208"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,240 @@
+09-04 23:57:34.315  6301  6341 I TestRunner: started: scroll_to_item(com.example.affirmation.AffirmationsListTests)
+09-04 23:57:34.380  6301  6341 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+09-04 23:57:34.532  4348  4376 D SplashScreenView: Build android.window.SplashScreenView{29dce9a V.E...... ......ID 0,0-0,0}
+09-04 23:57:34.532  4348  4376 D SplashScreenView: Icon: view: null drawable: null size: 0
+09-04 23:57:34.532  4348  4376 D SplashScreenView: Branding: view: android.view.View{74013cb G.ED..... ......I. 0,0-0,0 #10204db android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+09-04 23:57:34.765  1602  1602 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+09-04 23:57:34.782  1602  2164 E HwDetectorWithState: a: 3
+09-04 23:57:34.812  6301  6347 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+09-04 23:57:34.902  1136  1788 D EGL_emulation: app_time_stats: avg=1801.89ms min=1801.89ms max=1801.89ms count=1
+09-04 23:57:34.921  4348  4382 W Parcel  : Expecting binder but got null!
+09-04 23:57:35.007  6301  6347 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+09-04 23:57:35.039  6301  6347 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+09-04 23:57:35.142   442   453 W TransactionTracing: Could not find layer handle 0x77f47d5a07b0
+09-04 23:57:35.220  4988  5000 I .apps.wellbeing: Background concurrent copying GC freed 62560(3141KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 4472KB/8944KB, paused 2.145ms,138us total 144.538ms
+09-04 23:57:35.236  6301  6301 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+09-04 23:57:35.266  4348  4382 D EGL_emulation: app_time_stats: avg=45739.54ms min=2.64ms max=182133.44ms count=4
+09-04 23:57:35.271   442   453 W TransactionTracing: Could not find layer handle 0x77f47d5a11d0
+09-04 23:57:35.271   442   453 W TransactionTracing: Could not find layer handle 0x77f47d5a2070
+09-04 23:57:35.282   442   453 W TransactionTracing: Could not find layer handle 0x77f47d5a2070
+09-04 23:57:35.282   442   453 W TransactionTracing: Could not find layer handle 0x77f47d5a11d0
+09-04 23:57:35.335   442   453 W TransactionTracing: Could not find layer handle 0x77f47d59e710
+09-04 23:57:35.339  6301  6301 D LifecycleMonitor: Lifecycle status change: com.example.affirmation.MainActivity@af9cd01 in: PRE_ON_CREATE
+09-04 23:57:35.351  6301  6301 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+09-04 23:57:35.929  6301  6301 W ple.affirmation: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+09-04 23:57:35.929  6301  6301 W ple.affirmation: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+09-04 23:57:35.950  6301  6301 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10174; state: ENABLED
+09-04 23:57:36.311  6301  6301 W ple.affirmation: Verification of void androidx.recyclerview.widget.RecyclerView.<init>(android.content.Context, android.util.AttributeSet, int) took 277.661ms (1627.88 bytecodes/s) (13496B approximate peak alloc)
+09-04 23:57:36.367  4348  4382 D EGL_emulation: app_time_stats: avg=15.17ms min=2.16ms max=148.08ms count=28
+09-04 23:57:36.497  6301  6301 W ple.affirmation: Verification of androidx.recyclerview.widget.RecyclerView$ViewHolder androidx.recyclerview.widget.RecyclerView.getChildViewHolderInt(android.view.View) took 176.746ms (73.55 bytecodes/s) (1720B approximate peak alloc)
+09-04 23:57:36.852  6301  6301 W ple.affirmation: Verification of void androidx.recyclerview.widget.RecyclerView.addOnChildAttachStateChangeListener(androidx.recyclerview.widget.RecyclerView$OnChildAttachStateChangeListener) took 313.015ms (54.31 bytecodes/s) (1720B approximate peak alloc)
+09-04 23:57:37.348  6301  6301 D LifecycleMonitor: Lifecycle status change: com.example.affirmation.MainActivity@af9cd01 in: CREATED
+09-04 23:57:37.349  6301  6301 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.affirmation.MainActivity@af9cd01
+09-04 23:57:37.357  6301  6301 D LifecycleMonitor: Lifecycle status change: com.example.affirmation.MainActivity@af9cd01 in: STARTED
+09-04 23:57:37.358  6301  6301 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.affirmation.MainActivity@af9cd01
+09-04 23:57:37.365  6301  6301 D LifecycleMonitor: Lifecycle status change: com.example.affirmation.MainActivity@af9cd01 in: RESUMED
+09-04 23:57:37.365  6301  6301 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.affirmation.MainActivity@af9cd01
+09-04 23:57:37.472   442   451 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10174 pid=0
+09-04 23:57:37.473   442   451 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10174 => denied (924 us)
+09-04 23:57:37.479   442   451 W ServiceManager: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10174 pid=0
+09-04 23:57:37.479   442   451 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10174 => denied (6409 us)
+09-04 23:57:37.482   442   453 W TransactionTracing: Could not find layer handle 0x77f47d59ee90
+09-04 23:57:37.483   442   453 W TransactionTracing: Could not find layer handle 0x77f47d5a24f0
+09-04 23:57:37.487   442   451 W ServiceManager: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10174 pid=0
+09-04 23:57:37.488   442   451 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10174 => denied (8384 us)
+09-04 23:57:37.497  4348  4382 D EGL_emulation: app_time_stats: avg=18542.37ms min=96.10ms max=36988.64ms count=2
+09-04 23:57:37.530  6301  6344 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1
+09-04 23:57:37.539  6301  6344 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+09-04 23:57:37.539  6301  6344 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+09-04 23:57:37.567  6301  6344 D EGL_emulation: eglCreateContext: 0x7bb868daa750: maj 3 min 1 rcv 4
+09-04 23:57:37.614  6301  6344 D EGL_emulation: eglMakeCurrent: 0x7bb868daa750: ver 3 1 (tinfo 0x7bba867de080) (first time)
+09-04 23:57:37.672   207   207 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+09-04 23:57:37.677  6301  6344 I Gralloc4: mapper 4.x is not supported
+09-04 23:57:37.684   207   207 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest.
+09-04 23:57:37.687   205   205 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+09-04 23:57:37.689  6301  6344 W Gralloc4: allocator 4.x is not supported
+09-04 23:57:37.705  6301  6344 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1
+09-04 23:57:37.829  6301  6344 W Parcel  : Expecting binder but got null!
+09-04 23:57:37.839   610   639 W ziparchive: Unable to open '/data/app/~~LKYCBEUQuY8nNUGpvuOpAQ==/com.example.affirmation-q3F3VwyZ4cA73gsBe4ExkA==/base.dm': No such file or directory
+09-04 23:57:37.851   610   639 I ActivityTaskManager: Displayed com.example.affirmation/.MainActivity: +3s438ms
+09-04 23:57:37.939  2478  2478 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220
+09-04 23:57:37.948  2478  2478 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 0, unlocked = true
+09-04 23:57:37.948  2478  2478 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.affirmation fieldId=-1 fieldName=null extras=null}, false)
+09-04 23:57:37.953  2478  2478 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+09-04 23:57:38.029   929  1186 D BtGatt.ScanManager: uid 10115 isForeground true scanMode -1
+09-04 23:57:38.029   929  1186 D BtGatt.ScanManager: uid 10115 isForeground true scanMode -1
+09-04 23:57:38.116  1279  1293 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+09-04 23:57:38.120  1279  1293 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+09-04 23:57:38.122  1279  1293 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+09-04 23:57:38.152   929  1186 D BtGatt.ScanManager: uid 10115 isForeground true scanMode -1
+09-04 23:57:38.154   929  1186 D BtGatt.ScanManager: uid 10115 isForeground true scanMode -1
+09-04 23:57:38.170  1279  1648 I FontLog : Pulling font file for id = 15, cache size = 4 [CONTEXT service_id=132 ]
+09-04 23:57:38.205   610  2355 W InputManager-JNI: Input channel object 'e1b2a18 Splash Screen com.example.affirmation (client)' was disposed without first being removed with the input manager!
+09-04 23:57:38.213  1279  1648 I FontLog : Pulling font file for id = 15, cache size = 4 [CONTEXT service_id=132 ]
+09-04 23:57:38.248  4348  4382 D EGL_emulation: app_time_stats: avg=357.73ms min=3.70ms max=1234.02ms count=5
+09-04 23:57:38.281  6301  6341 W FileTestStorage: Output properties is not supported.
+09-04 23:57:38.300  6301  6341 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+09-04 23:57:38.370  6301  6341 D EventInjectionStrategy: Creating injection strategy with input manager.
+09-04 23:57:38.370  6301  6341 W ple.affirmation: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (unsupported, reflection, allowed)
+09-04 23:57:38.381  6301  6341 W ple.affirmation: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (unsupported, reflection, allowed)
+09-04 23:57:38.381  6301  6341 W ple.affirmation: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (unsupported, reflection, allowed)
+09-04 23:57:38.382   442   453 W TransactionTracing: Could not find layer handle 0x77f47d5a29d0
+09-04 23:57:38.382   442   453 W TransactionTracing: Could not find layer handle 0x77f47d59ea10
+09-04 23:57:38.382   442   453 W TransactionTracing: Could not find layer handle 0x77f47d5a0db0
+09-04 23:57:38.516  6301  6301 W ple.affirmation: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (unsupported, reflection, allowed)
+09-04 23:57:38.517  6301  6301 W ple.affirmation: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (unsupported, reflection, allowed)
+09-04 23:57:38.517  6301  6301 W ple.affirmation: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (unsupported, reflection, allowed)
+09-04 23:57:38.537  6301  6301 W ple.affirmation: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (unsupported, reflection, allowed)
+09-04 23:57:38.537  6301  6301 W ple.affirmation: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+09-04 23:57:38.540  6301  6301 W ple.affirmation: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+09-04 23:57:38.559  6301  6301 I ViewInteraction: Performing 'scroll RecyclerView to: holder with view: an instance of android.widget.TextView and view.getText() equals string from resource id: <2131689500>' action on view view.getId() is <2131231063/com.example.affirmation:id/recycler_view>
+09-04 23:57:38.701  1818  1968 I A       : NGA disabled due to not being eligible.
+09-04 23:57:38.704  6301  6358 V UiAutomation: Init UiAutomation@84e8f87[id=2, flags=0]
+09-04 23:57:38.740  6301  6301 D takeScreenshot: Found 1 global views to redraw
+09-04 23:57:38.818   207   207 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+09-04 23:57:38.820  6263  6299 I Gralloc4: mapper 4.x is not supported
+09-04 23:57:38.852  6263  6299 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1
+09-04 23:57:38.867  6263  6362 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+09-04 23:57:38.869  6263  6362 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+09-04 23:57:38.872  6263  6362 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+09-04 23:57:38.933  6263  6362 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1
+09-04 23:57:38.936  6263  6362 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+09-04 23:57:38.937  6263  6362 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+09-04 23:57:38.955  6263  6362 D EGL_emulation: eglCreateContext: 0x77209dcd4d90: maj 3 min 1 rcv 4
+09-04 23:57:39.000  6263  6362 D EGL_emulation: eglMakeCurrent: 0x77209dcd4d90: ver 3 1 (tinfo 0x7722c07d3080) (first time)
+09-04 23:57:39.230  6301  6344 D EGL_emulation: app_time_stats: avg=351.12ms min=53.32ms max=780.76ms count=4
+09-04 23:57:39.260  4348  4382 D EGL_emulation: app_time_stats: avg=10.11ms min=2.07ms max=57.92ms count=46
+09-04 23:57:39.284  1533  1809 W MediaProvider: isAppCloneUserPair for user 0: false
+09-04 23:57:39.286  1533  1809 V MediaProvider: Inserted id:1000000036 less than next row id backup:1000001000.
+09-04 23:57:39.803  1279  5028 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 4377 [CONTEXT service_id=218 ]
+09-04 23:57:39.838  5312  5312 I ProvidersCache: Updating roots due to change on user 0at content://com.google.android.apps.docs.storage/root
+09-04 23:57:39.895  5312  6366 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+09-04 23:57:39.900  1279  6166 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.CheckinService started execution. cause:9 exec_start_elapsed_seconds: 4377 [CONTEXT service_id=218 ]
+09-04 23:57:39.937  1279  6166 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 233 uptime_millis: 233 exec_start_elapsed_seconds: 4377 [CONTEXT service_id=218 ]
+09-04 23:57:39.980  1279  6166 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.CheckinService finished executing. cause:9 result: 3 elapsed_millis: 105 uptime_millis: 105 exec_start_elapsed_seconds: 4377 [CONTEXT service_id=218 ]
+09-04 23:57:40.063  1279  5028 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.tapandpay.gcmtask.TapAndPayGcmTaskService started execution. cause:5 exec_start_elapsed_seconds: 4377 [CONTEXT service_id=218 ]
+09-04 23:57:40.100  1279  6166 W TapAndPay: NfcAdapter is null while obtaining CardEmulation instance. [CONTEXT service_id=79 ]
+09-04 23:57:40.100  1279  6166 W TapAndPay: java.lang.NullPointerException: NfcAdapter is null
+09-04 23:57:40.100  1279  6166 W TapAndPay: 	at android.nfc.cardemulation.CardEmulation.getInstance(CardEmulation.java:154)
+09-04 23:57:40.100  1279  6166 W TapAndPay: 	at bxlw.<init>(:com.google.android.gms@225014047@22.50.14 (190800-499278674):0)
+09-04 23:57:40.100  1279  6166 W TapAndPay: 	at com.google.android.gms.tapandpay.hce.task.TapAndPayAidRegistrationTaskOperation.a(:com.google.android.gms@225014047@22.50.14 (190800-499278674):5)
+09-04 23:57:40.100  1279  6166 W TapAndPay: 	at com.google.android.gms.tapandpay.gcmtask.TapAndPayGcmTaskChimeraService.a(:com.google.android.gms@225014047@22.50.14 (190800-499278674):4)
+09-04 23:57:40.100  1279  6166 W TapAndPay: 	at asuo.call(:com.google.android.gms@225014047@22.50.14 (190800-499278674):4)
+09-04 23:57:40.100  1279  6166 W TapAndPay: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+09-04 23:57:40.100  1279  6166 W TapAndPay: 	at aalr.c(:com.google.android.gms@225014047@22.50.14 (190800-499278674):6)
+09-04 23:57:40.100  1279  6166 W TapAndPay: 	at aalr.run(:com.google.android.gms@225014047@22.50.14 (190800-499278674):7)
+09-04 23:57:40.100  1279  6166 W TapAndPay: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1137)
+09-04 23:57:40.100  1279  6166 W TapAndPay: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+09-04 23:57:40.100  1279  6166 W TapAndPay: 	at aaqv.run(:com.google.android.gms@225014047@22.50.14 (190800-499278674):0)
+09-04 23:57:40.100  1279  6166 W TapAndPay: 	at java.lang.Thread.run(Thread.java:1012)
+09-04 23:57:40.120  1279  5028 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.tapandpay.gcmtask.TapAndPayGcmTaskService finished executing. cause:5 result: 3 elapsed_millis: 116 uptime_millis: 116 exec_start_elapsed_seconds: 4377 [CONTEXT service_id=218 ]
+09-04 23:57:40.330  4348  4382 D EGL_emulation: app_time_stats: avg=256.48ms min=3.36ms max=2220.38ms count=11
+09-04 23:57:41.356  4348  4376 D SplashScreenView: Build android.window.SplashScreenView{36185bb V.E...... ......ID 0,0-0,0}
+09-04 23:57:41.356  4348  4376 D SplashScreenView: Icon: view: null drawable: null size: 0
+09-04 23:57:41.356  4348  4376 D SplashScreenView: Branding: view: android.view.View{e71ad8 G.ED..... ......I. 0,0-0,0 #10204db android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+09-04 23:57:41.386  6301  6301 D LifecycleMonitor: Lifecycle status change: com.example.affirmation.MainActivity@af9cd01 in: PAUSED
+09-04 23:57:41.387  6301  6301 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.affirmation.MainActivity@af9cd01
+09-04 23:57:41.451   354   354 D Zygote  : Forked child process 6370
+09-04 23:57:41.452  4348  4382 W Parcel  : Expecting binder but got null!
+09-04 23:57:41.489  6370  6370 I ffirmation.test: Late-enabling -Xcheck:jni
+09-04 23:57:41.590  6370  6370 W ffirmation.test: Unexpected CPU variant for x86: x86_64.
+09-04 23:57:41.590  6370  6370 W ffirmation.test: Known variants: atom, sandybridge, silvermont, kabylake, default
+09-04 23:57:41.604   455   488 I adbd    : jdwp connection from 6370
+09-04 23:57:41.740  4348  4382 D EGL_emulation: app_time_stats: avg=176.23ms min=2.04ms max=1967.79ms count=14
+09-04 23:57:41.748   442   453 W TransactionTracing: Could not find layer handle 0x77f47d59ea70
+09-04 23:57:41.861  6370  6370 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10175; state: ENABLED
+09-04 23:57:41.887  6370  6370 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+09-04 23:57:41.902  6370  6370 D nativeloader: Configuring classloader-namespace for other apk /system/framework/android.test.mock.jar. target_sdk_version=33, uses_libraries=ALL, library_path=/data/app/~~_Qd2Gh0w9D4Po2BW13wFRg==/com.example.affirmation.test-Cb-Gr1FYWyP0RrCqIphUEw==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.affirmation.test
+09-04 23:57:41.904  6370  6370 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+09-04 23:57:41.914  6370  6370 W ffirmation.test: ClassLoaderContext shared library size mismatch. Expected=0, found=2 (PCL[] | PCL[]{PCL[/system/framework/android.test.base.jar*1628045882]#PCL[/system/framework/android.test.mock.jar*849501951]})
+09-04 23:57:41.934  6370  6370 D nativeloader: Configuring classloader-namespace for other apk /system/framework/android.test.runner.jar. target_sdk_version=33, uses_libraries=ALL, library_path=/data/app/~~_Qd2Gh0w9D4Po2BW13wFRg==/com.example.affirmation.test-Cb-Gr1FYWyP0RrCqIphUEw==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.affirmation.test
+09-04 23:57:41.946  6370  6370 W ziparchive: Unable to open '/data/app/~~_Qd2Gh0w9D4Po2BW13wFRg==/com.example.affirmation.test-Cb-Gr1FYWyP0RrCqIphUEw==/base.dm': No such file or directory
+09-04 23:57:41.947  6370  6370 W ziparchive: Unable to open '/data/app/~~_Qd2Gh0w9D4Po2BW13wFRg==/com.example.affirmation.test-Cb-Gr1FYWyP0RrCqIphUEw==/base.dm': No such file or directory
+09-04 23:57:42.009   442   453 W TransactionTracing: Could not find layer handle 0x77f47d5a4a10
+09-04 23:57:42.010   442   453 W TransactionTracing: Could not find layer handle 0x77f47d5a2730
+09-04 23:57:42.011   442   453 W TransactionTracing: Could not find layer handle 0x77f47d5a2730
+09-04 23:57:42.011   442   453 W TransactionTracing: Could not find layer handle 0x77f47d5a4a10
+09-04 23:57:42.120   442   453 W TransactionTracing: Could not find layer handle 0x77f47d5a3bd0
+09-04 23:57:42.617  6370  6370 D nativeloader: Configuring classloader-namespace for other apk /data/app/~~_Qd2Gh0w9D4Po2BW13wFRg==/com.example.affirmation.test-Cb-Gr1FYWyP0RrCqIphUEw==/base.apk. target_sdk_version=33, uses_libraries=, library_path=/data/app/~~_Qd2Gh0w9D4Po2BW13wFRg==/com.example.affirmation.test-Cb-Gr1FYWyP0RrCqIphUEw==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.affirmation.test
+09-04 23:57:42.638  6370  6370 V GraphicsEnvironment: ANGLE Developer option for 'com.example.affirmation.test' set to: 'default'
+09-04 23:57:42.646  6370  6370 V GraphicsEnvironment: ANGLE GameManagerService for com.example.affirmation.test: false
+09-04 23:57:42.650  6370  6370 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+09-04 23:57:42.662  6370  6370 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+09-04 23:57:42.665  6370  6370 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+09-04 23:57:42.718  6370  6395 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+09-04 23:57:42.722  6370  6395 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+09-04 23:57:42.751  4348  4382 D EGL_emulation: app_time_stats: avg=8.26ms min=2.28ms max=43.99ms count=44
+09-04 23:57:42.753  6370  6395 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+09-04 23:57:42.795  6301  6301 D LifecycleMonitor: Lifecycle status change: com.example.affirmation.MainActivity@af9cd01 in: STOPPED
+09-04 23:57:42.796  6301  6301 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.affirmation.MainActivity@af9cd01
+09-04 23:57:42.802  6301  6301 D LifecycleMonitor: Lifecycle status change: com.example.affirmation.MainActivity@af9cd01 in: DESTROYED
+09-04 23:57:42.802  6301  6301 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+09-04 23:57:42.823  6301  6341 E TestRunner: failed: scroll_to_item(com.example.affirmation.AffirmationsListTests)
+09-04 23:57:42.828   929  1186 D BtGatt.ScanManager: uid 10115 isForeground true scanMode -1
+09-04 23:57:42.834  6301  6341 E TestRunner: ----- begin exception -----
+09-04 23:57:42.838   929  1186 D BtGatt.ScanManager: uid 10115 isForeground true scanMode -1
+09-04 23:57:42.847  6301  6341 E TestRunner: androidx.test.espresso.PerformException: Error performing 'scroll RecyclerView to: holder with view: an instance of android.widget.TextView and view.getText() equals string from resource id: <2131689500>' on view 'Animations or transitions are enabled on the target device.
+09-04 23:57:42.847  6301  6341 E TestRunner: For more info check: https://developer.android.com/training/testing/espresso/setup#set-up-environment
+09-04 23:57:42.847  6301  6341 E TestRunner:
+09-04 23:57:42.847  6301  6341 E TestRunner: view.getId() is <2131231063/com.example.affirmation:id/recycler_view>'.
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:8)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:9)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at com.example.affirmation.AffirmationsListTests.scroll_to_item(AffirmationsListTests.kt:25)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:67)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:58)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:446)
+09-04 23:57:42.847  6301  6341 E TestRunner: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2361)
+09-04 23:57:42.847  6301  6341 E TestRunner: Caused by: java.lang.RuntimeException: Found 0 items matching holder with view: an instance of android.widget.TextView and view.getText() equals string from resource id: <2131689500>, but position -1 was requested.
+09-04 23:57:42.848  6301  6341 E TestRunner: 	at androidx.test.espresso.contrib.RecyclerViewActions$ScrollToViewAction.perform(RecyclerViewActions.java:361)
+09-04 23:57:42.848  6301  6341 E TestRunner: 	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+09-04 23:57:42.848  6301  6341 E TestRunner: 	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+09-04 23:57:42.848  6301  6341 E TestRunner: 	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+09-04 23:57:42.848  6301  6341 E TestRunner: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+09-04 23:57:42.848  6301  6341 E TestRunner: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+09-04 23:57:42.848  6301  6341 E TestRunner: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+09-04 23:57:42.848  6301  6341 E TestRunner: 	at android.os.Handler.handleCallback(Handler.java:942)
+09-04 23:57:42.848  6301  6341 E TestRunner: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+09-04 23:57:42.848  6301  6341 E TestRunner: 	at android.os.Looper.loopOnce(Looper.java:201)
+09-04 23:57:42.848  6301  6341 E TestRunner: 	at android.os.Looper.loop(Looper.java:288)
+09-04 23:57:42.848  6301  6341 E TestRunner: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+09-04 23:57:42.848  6301  6341 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+09-04 23:57:42.848  6301  6341 E TestRunner: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+09-04 23:57:42.848  6301  6341 E TestRunner: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+09-04 23:57:42.848  6301  6341 E TestRunner: ----- end exception -----
+09-04 23:57:42.869  6301  6341 I TestRunner: finished: scroll_to_item(com.example.affirmation.AffirmationsListTests)
