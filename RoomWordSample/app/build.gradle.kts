@@ -56,6 +56,9 @@ dependencies {
     kapt("androidx.room:room-compiler:$room_version")
     testImplementation("androidx.room:room-testing:$room_version")
 
+    implementation ("androidx.room:room-ktx:$room_version")
+    kapt ("androidx.room:room-compiler:$room_version")
+
     val lifecycle_version = "2.7.0"
 
     // ViewModel

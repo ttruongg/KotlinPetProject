@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.roomwordsample.R
 import com.example.roomwordsample.model.Word
 
-class WordListAdapter : RecyclerView.Adapter<WordListAdapter.WordViewHolder>() {
+class WordListAdapter(private var wordList: List<Word>) : RecyclerView.Adapter<WordListAdapter.WordViewHolder>() {
 
     private val differCallBack = object : DiffUtil.ItemCallback<Word>(){
         override fun areItemsTheSame(oldItem: Word, newItem: Word): Boolean {
@@ -24,6 +24,11 @@ class WordListAdapter : RecyclerView.Adapter<WordListAdapter.WordViewHolder>() {
 
     }
 
+    fun updateData(newData: List<Word>){
+        wordList = newData
+        notifyDataSetChanged()
+
+    }
     val differ = AsyncListDiffer(this, differCallBack)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WordViewHolder {
