@@ -23,12 +23,15 @@ class NewWordActivity : AppCompatActivity() {
                 setResult(Activity.RESULT_CANCELED, response)
             } else {
                 val word = edtWord.text.toString()
-                response.putExtra("EXTRA_REPLY", word)
+                response.putExtra(EXTRA_REPLY, word)
                 setResult(Activity.RESULT_OK, response)
             }
             finish()
         }
 
+    }
 
+    companion object {
+        const val EXTRA_REPLY = "com.example.android.wordlistsql.REPLY"
     }
 }
