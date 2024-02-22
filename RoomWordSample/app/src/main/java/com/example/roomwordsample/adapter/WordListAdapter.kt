@@ -1,5 +1,6 @@
 package com.example.roomwordsample.adapter
 
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,37 +12,28 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.roomwordsample.R
 import com.example.roomwordsample.model.Word
 
-class WordListAdapter(private var wordList: List<Word>) : RecyclerView.Adapter<WordListAdapter.WordViewHolder>() {
+class WordListAdapter(val context: Context) : RecyclerView.Adapter<WordListAdapter.WordViewHolder>() {
 
-    private val differCallBack = object : DiffUtil.ItemCallback<Word>(){
-        override fun areItemsTheSame(oldItem: Word, newItem: Word): Boolean {
-            return oldItem === newItem
-        }
+    val allWord = ArrayList<Word>()
 
-        override fun areContentsTheSame(oldItem: Word, newItem: Word): Boolean {
-            return oldItem == newItem
-        }
-
-    }
-
-    fun updateData(newData: List<Word>){
-        wordList = newData
+    fun setData(allWords: List<Word>){
+        allWord.clear()
+        allWord.addAll(allWords)
         notifyDataSetChanged()
-
     }
-    val differ = AsyncListDiffer(this, differCallBack)
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WordViewHolder {
-        return WordViewHolder.create(parent)
+        return WordViewHolder(
+            LayoutInflater.from(parent.context).inflate(R.layout.item, parent, false)
+        )
     }
 
     override fun getItemCount(): Int {
-        return differ.currentList.size
+        return allWord.size
     }
 
     override fun onBindViewHolder(holder: WordViewHolder, position: Int) {
-        val current = differ.currentList.get(position)
-        holder.bind(current.word)
+        val word = allWord.get(position)
+        holder.bind(word.word)
     }
 
     class WordViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
