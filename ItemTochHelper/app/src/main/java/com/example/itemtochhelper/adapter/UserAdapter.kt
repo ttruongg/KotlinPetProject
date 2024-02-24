@@ -10,8 +10,7 @@ import com.example.itemtochhelper.R
 import com.example.itemtochhelper.model.user
 
 class UserAdapter(
-    private val context: Context,
-    private val data: List<user>
+    private var data: List<user>
 ) : RecyclerView.Adapter<UserAdapter.UserAdapterViewHolder>() {
 
     class UserAdapterViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
